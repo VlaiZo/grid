@@ -1,0 +1,48 @@
+/* lista-estilos.css */
+ul {
+    list-style-type: square;
+    padding: 1px;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+li {
+    margin: 5px 0;
+    list-style: none;
+}
+
+table {
+    width: 300px;
+    border-collapse: collapse;
+    margin: 0px 0;
+    z-index: 1;
+}
+
+table th, table td {
+    border: 3px solid #ffffff;
+    padding: 2px;
+    text-align: center;
+    color: #ffffff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell;
+}
+
+table th {
+    background-color: #797979;
+    font-weight:bold
+}
+
+.tabla{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+form {
+    color: #ffffffad;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell;
+}
+
+input {
+    color: #030303;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell;
+}
